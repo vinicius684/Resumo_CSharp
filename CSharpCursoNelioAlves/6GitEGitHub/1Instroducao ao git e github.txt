@@ -1,0 +1,172 @@
+Git - Sistema de vercionamento (controlar versões de algum projeto, documento, ... )
+ '-> usuário controla as modificações de um projeto por meio de versões chamadas "commits"
+
+Github - serviços online de hospedagem de projetos gerenciados pelo git
+
+/*-----------------------------------------------------*/
+Repositório remoto e local 
+ ->Um projeto controlado pelo Git é chamado de ==reposiório== de versionamento
+ ->Tipicamente uma cópia "oficial" do repositório fica salvo em um servido(Repositório Remoto)
+ ->Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador(Repositório Local). A pessoa então 
+    faz suas alterações no projeto(novos commits) e depois salva as alterações no servidos.
+
+/*-----------------------------------------------------*/
+Configurar chave SSH no Github - cadastrar previamente quais computadores podem acessar o github em meu nome
+Passo a passo no curso do Nélio
+
+/*-----------------------------------------------------*/
+Passo a passo: salvar primeira versão de um projeto no github
+
+-abrir gith bash a partir da pasta do projeto.
+
+-git init - criar um repositório git na pasta(a pasta vai passar a ser um projeto gerenciado pelo git)
+-git add . - enviar os arquivos do projeto para uma área temporária chamada stage
+-git commit -m "Mensagem explicativa do que foi modificado" - comando que vai de fato salvar uma nova versão no repositório git
+-git branch -M main - Comando para garantir de utilizar o nome main para salvar o projeto no github
+-criar um novo projeto no github
+-git remote add origin git@github.com:seuusuario/seurepositorio.git - associar o proj do computador ao github (ghb fornece esse link)
+   '->SSH
+-git push -u origin main - enviar para o github 
+
+-git status - status do git add . (stage)
+-ls ver arquivos do projeto
+
+/*-----------------------------------------------------*/
+Passo a passo: salvar uma nova versão
+
+-git status
+-git add .
+-git commit -m "Mensagem explicativa"
+-git push
+
+/*-----------------------------------------------------*/
+Demo - Clonar e modificar um projeto de um repositório remoto que eu tenha permissão para alterar
+
+Clonar
+-git clone git@github.com:seuusuario/seurepositorio.git (link pronto em Code)
+
+Adicionar
+-git add .
+-git commit -m "Mensagem explicativa"
+-git push
+
+- cd aulagithub - entrar em uma pasta
+
+/*-----------------------------------------------------*/
+Verificando histórico de versões
+
+-git log
+
+-git log --oneline - Historico Resumido
+
+/*-----------------------------------------------------*/
+-git status, git add e stage
+
+-git add . - adiciona todas as modificações na área de stage
+
+-deletar um arquivo: só deletar arquivos etc e depois "publicar nova versão"
+
+-git status - status do git add . (stage)
+
+-git reset - tira tudo  o que está no stage
+
+-git add sobre.html - vai adicionar apenas esse arquivo
+		'->-Ex: -git add sobre.html; git status: no stage um arquivo para adicionar e dois fora do stage não adicionados(modificações feitas anteriormente); git commit -m "Adicionados arquivo sobre"; git status - um arquivo deletado (por conta do passo acima(Deletar um arquivo)) e um modificado) fora do Stage(pendente nova publicação add, commit passo a passo...); git log --oneline(histórico resumido) ----- clean
+
+/*-----------------------------------------------------*/
+Git diff e recursos source control(VS code)
+
+-git diff sobre.html - Comando que mostra a diferença entre arquivos modificados
+  '-> Dica: utilizar o VS Code, que mostra graficamente as diferenças(terceiro ícone da esquerda mostra as alterações)
+
+/*-----------------------------------------------------*/
+-Git checkout - permite modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch
+
+git checkout codigo do commit - modifica os arquivos pra tal commit (importante não modificalos para voltar para o commit main, porque as midificações meio que ficariam em um "limbo")
+git checkout main - modifica os arquivos para o commit main(último)
+
+'->Codigo do commit, HEAD: 
+-Cada commit possui um código, que pode ser utilizado para referenciar o commit; 
+-O último commit do histórico do branch corrente também pode ser referenciado pela palavra HEAD; 
+-É possível referenciar um commit N versões antes de HEAD usando ~N, por exemplo: HEAD~1(penúltimo commit)  HEAD~2(antepenúltimo commit)
+
+git checkout HEAD~2 - dois commits antes do commit corrente
+
+Importante: antes de fazer o checkout para voltar para HEAD(main), certifique-se de que não haja mudanças nos arquivos. Se você acidentalmente mudou alguma coisa, desfaça as
+modificações usando:
+git reset
+git clean -df 
+gitcheckout -- . - limpar modificações
+
+/*-----------------------------------------------------*/
+Arquivo .gitignore - Importante para trabalhar com frameworks (não entendi mto bem pq meu projeto não tem essa pasta)
+
+-É um arquivo que indica o que não deve ser salvo pelo git
+
+-Geralmente o arquivo .gitignore fica salvo na pasta principal do repositório. Mas também é possível salvar outros arquivos .gitignore 
+em pastas do repositório, para indicar o que deve ser ignorado por cada subpasta
+
+-Ex: pesquisar no google gitignore .net
+
+Casos comuns de arquivos que não deve ser salvos pelo git:
+Arquivos Compilados(linguagens compiladas(C,C++,Java,C#,etc)geram código compilado para executar o programa localmente)
+Arquivos de bibliotecas excternas usadas no projeto(projetoos reais utilizam bibliotecas externas(programas prontos disponíveis na internet).Por exemplo, projetos javascript com NPM tipicamente salvam uma subpasta "node_modules" na pasta do seu projeto)
+Arquivos de configuração da sua IDE(IDEs podem salvar uma subpasta com arquivos de configuração na pasta do projeto(ex:.vscode))
+Arquivos de configuração do seu sistema(Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projeto)
+
+/*----------------------2ª Parte - Resolvendo Problemas Comuns-------------------------------*/
+
+Remover arquivos da área de stage 
+-git status  
+-git reset
+
+Desfazendo modificações não salvas
+-git status
+-git git reset
+-git clean -df
+-git checkout -- . 
+
+O que fazer quando abre o editor VIM 
+ Estas ações podem abrir o editor VIM no terminal:
+	-Fazer um commit sem mensagem
+	-Fazer um merge de três vias
+Commit sem mensagem -> Erro -> Editor VIM ->
+-Habilitar o modo edição: i
+->Escrever Mensagem do Commit
+-Sair do VIM, salvando as alterações: ESQ :wq ENTER
+-Sair do VIM, descartando as alterações
+
+Deletando último commit sem deletar as modificações nos arquivos
+git status
+git reset --soft HEAD~1 - voltar para o commit antes do HEAD, mantendo as modificações do HEAD
+
+Deletar commits e também modificações nos arquivos(Ação Destrutiva) 	
+	Voltar o projeto ao estado de um dado commit(deletar commits e alterações posteriores a esse commit)
+	-git status
+	-git reset --hard codigo do commit
+
+	Voltar o projeto ao estado do penúltimo commit:
+	-git status
+	-git reset --hard HEAD~1
+
+Como atualizar o repositório local em relação ao remoto
+	-git status
+	-git pull nome do remote nome do branch - git pull origin main
+
+Resolvendo push rejeitado por históricos diferentes
+	Não é permitido enviar um push se seu repositório local está atrasado em relação ao histórico do repositório remoto
+	-Você deve atualizar o repositório local
+	-git pull origin main - vai trazer os commits do remoto e manter os commits do local e criar um commit merge
+
+Resolvendo pull com conflito (mesclar dois históricos e esses históricos diferentes mexeram no mesmo arquivo)
+	-Analise o código fonte
+	-Faça as edições necessárias
+	-Faça um novo commit
+	
+Como sobrescreveer um histórico no Github(Ação Destrutiva)
+	-git push -f nome do remote nome do brach - git push -f
+
+Como apontar o projeto para outro repositório remoto (pra poder fazer push com arquivos etc)
+	-git remote set-url origin git@github.com:seuusuario/seurepositorio.git (novo)
+	-git remote -v - mostra para onde onde o projeto está apontando no github
+	-git push -u origin main...

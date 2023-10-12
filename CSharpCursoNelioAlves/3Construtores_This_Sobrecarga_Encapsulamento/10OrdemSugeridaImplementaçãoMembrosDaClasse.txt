@@ -1,0 +1,7 @@
+ORDEM SUGERIDA:
+
+1 - Atributos Privados
+2 - Propriedades autoimplementadas
+3 - Construtores
+4 - Propriedades customizadas
+5 - Outros métodos da classe

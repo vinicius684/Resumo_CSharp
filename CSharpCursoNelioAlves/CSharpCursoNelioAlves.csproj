@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>CSharpCursoNelioAlves._4ComportamentoDeMemoria_Arrays_Listas._13ExListasOO.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="3Construtores_This_Sobrecarga_Encapsulamento\8ModificadoresDeAcesso\" />
+    <Folder Include="4ComportamentoDeMemoria_Arrays_Listas\02DesalocacaoDeMemoria_GarbageCollector_EscopoLocal\" />
+    <Folder Include="4ComportamentoDeMemoria_Arrays_Listas\09Boxing_e_Umboxing\" />
+    <Folder Include="6GitEGitHub\" />
+  </ItemGroup>
+
+</Project>

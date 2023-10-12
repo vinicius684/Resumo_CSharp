@@ -1,0 +1,15 @@
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\CSharpCursoNelioAlves.exe
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\CSharpCursoNelioAlves.deps.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\CSharpCursoNelioAlves.runtimeconfig.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\CSharpCursoNelioAlves.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\CSharpCursoNelioAlves.pdb
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.csproj.AssemblyReference.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.AssemblyInfoInputs.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.AssemblyInfo.cs
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\refint\CSharpCursoNelioAlves.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.pdb
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.genruntimeconfig.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\ref\CSharpCursoNelioAlves.dll
