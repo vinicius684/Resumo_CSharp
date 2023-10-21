@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ReadLine/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ReadLine.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ReadLine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ReadLine/2.0.1": {
+      "sha512": "m3eptlV2hlZ3gWxdhvgsUpSjwyA3NCeLdbhgDt0V8rXP1E6ZbjOOExcAufHvAZepSKJvV+zZO1eYWGveShA4gw==",
+      "type": "package",
+      "path": "readline/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/ReadLine.dll",
+        "readline.2.0.1.nupkg.sha512",
+        "readline.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ReadLine >= 2.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vpinh\\.nuget\\packages\\": {},
@@ -51,6 +76,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "ReadLine": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

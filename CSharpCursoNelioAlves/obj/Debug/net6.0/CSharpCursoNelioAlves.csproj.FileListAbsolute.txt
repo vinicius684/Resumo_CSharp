@@ -13,3 +13,5 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelio
 C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.pdb
 C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.genruntimeconfig.cache
 C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\ref\CSharpCursoNelioAlves.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\bin\Debug\net6.0\ReadLine.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\net6.0\CSharpCursoNelioAlves.csproj.CopyComplete

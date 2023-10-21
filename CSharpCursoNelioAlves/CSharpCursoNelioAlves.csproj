@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpCursoNelioAlves._4ComportamentoDeMemoria_Arrays_Listas._13ExListasOO.Program</StartupObject>
+    <StartupObject>CSharpCursoNelioAlves._8Heranca_E_Polimorfismo._09Exercicio.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +13,10 @@
     <Folder Include="4ComportamentoDeMemoria_Arrays_Listas\02DesalocacaoDeMemoria_GarbageCollector_EscopoLocal\" />
     <Folder Include="4ComportamentoDeMemoria_Arrays_Listas\09Boxing_e_Umboxing\" />
     <Folder Include="6GitEGitHub\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReadLine" Version="2.0.1" />
   </ItemGroup>
 
 </Project>

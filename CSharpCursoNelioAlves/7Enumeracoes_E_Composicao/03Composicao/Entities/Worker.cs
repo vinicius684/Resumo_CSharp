@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharpCursoNelioAlves._7Enumeracoes_E_Composicao._03Composicao.Entities.Enums;
-using CSharpCursoNelioAlves._7Enumeracoes_E_Composicao._03Composicao.Entities.Enums;
 
 namespace CSharpCursoNelioAlves._7Enumeracoes_E_Composicao._03Composicao.Entities
 {

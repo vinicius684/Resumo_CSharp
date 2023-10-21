@@ -38,6 +38,7 @@ namespace CSharpCursoNelioAlves._7Enumeracoes_E_Composicao._03Composicao
                 worker1.AddContract(new HourContract(date, valuePerHour, hours));//adicionar o contrato ao trabalhador
             }
 
+            Console.WriteLine( );
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
             string monthAndYear = Console.ReadLine();
             int month = int.Parse(monthAndYear.Substring(0, 2));
