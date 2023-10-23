@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CSharp/1.0.0": {
+        "dependencies": {
+          "ReadLine": "2.0.1"
+        },
+        "runtime": {
+          "CSharp.dll": {}
+        }
+      },
+      "ReadLine/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/ReadLine.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReadLine/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m3eptlV2hlZ3gWxdhvgsUpSjwyA3NCeLdbhgDt0V8rXP1E6ZbjOOExcAufHvAZepSKJvV+zZO1eYWGveShA4gw==",
+      "path": "readline/2.0.1",
+      "hashPath": "readline.2.0.1.nupkg.sha512"
+    }
+  }
+}

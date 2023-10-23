@@ -39,9 +39,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves.csproj",
-      "projectName": "CSharpCursoNelioAlves",
-      "projectPath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves.csproj",
+      "projectUniqueName": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharp.csproj",
+      "projectName": "CSharp",
+      "projectPath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharp.csproj",
       "packagesPath": "C:\\Users\\vpinh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\obj\\",
       "projectStyle": "PackageReference",

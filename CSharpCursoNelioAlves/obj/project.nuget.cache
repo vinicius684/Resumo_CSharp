@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5kUeHN7akZyGHI+gM83kFw4Rej4tycLT/aKFbSaBB+YCWsRWsGWeaEseYWIVxvlycLkEWjZrNU/tppf8/xbmHg==",
+  "dgSpecHash": "vwYa10H+rjo59ZNe8kOKqagOAqSwdaXeiLWsNCRX3+Mr0GLfwj7vM4K3WtySgsuxLnvKAxaUCizPLKb6U9ItSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves.csproj",
+  "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\CSharpCursoNelioAlves\\CSharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vpinh\\.nuget\\packages\\readline\\2.0.1\\readline.2.0.1.nupkg.sha512"
   ],
