@@ -6,4 +6,4 @@ Views: Telas so sitema
 Controllers: Cara que faz o meio de campo entre a tela e o sistema
 Entities: Produtos, clientes..
 Services: ...
-Repositories: Obj responsaveispor acessar os dados de um banco de dados
+Repositories: Obj responsaveis por acessar os dados de um banco de dados

@@ -9,7 +9,7 @@ namespace CSharpCursoNelioAlves._7Enumeracoes_E_Composicao._03Composicao.Entitie
     internal class HourContract
     {
         public DateTime Date { get; set; }
-        public Double ValuePerHour { get; set; }
+        public double ValuePerHour { get; set; }
         public int Hours { get; set; }
         
         public HourContract() { }

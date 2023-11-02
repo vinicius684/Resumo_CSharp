@@ -1,4 +1,4 @@
-Git - Sistema de vercionamento (controlar versões de algum projeto, documento, ... )
+git agGit - Sistema de vercionamento (controlar versões de algum projeto, documento, ... )
  '-> usuário controla as modificações de um projeto por meio de versões chamadas "commits"
 
 Github - serviços online de hospedagem de projetos gerenciados pelo git
@@ -96,7 +96,7 @@ Importante: antes de fazer o checkout para voltar para HEAD(main), certifique-se
 modificações usando:
 git reset
 git clean -df 
-gitcheckout -- . - limpar modificações
+git checkout -- . - limpar modificações
 
 /*-----------------------------------------------------*/
 Arquivo .gitignore - Importante para trabalhar com frameworks (não entendi mto bem pq meu projeto não tem essa pasta)

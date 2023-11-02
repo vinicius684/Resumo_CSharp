@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp._09TratamentoDeExcecoes._05Exercicio.Program</StartupObject>
+    <StartupObject>CSharp._10TrabalhandoComArquivos.Exercicio.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
