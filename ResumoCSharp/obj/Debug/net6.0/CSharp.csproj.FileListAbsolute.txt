@@ -1,0 +1,17 @@
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\CSharp.exe
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\CSharp.deps.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\CSharp.runtimeconfig.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\CSharp.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\CSharp.pdb
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\bin\Debug\net6.0\ReadLine.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.csproj.AssemblyReference.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.AssemblyInfoInputs.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.AssemblyInfo.cs
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.csproj.CopyComplete
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\refint\CSharp.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.pdb
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\CSharp.genruntimeconfig.cache
+C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\ResumoCSharp\obj\Debug\net6.0\ref\CSharp.dll

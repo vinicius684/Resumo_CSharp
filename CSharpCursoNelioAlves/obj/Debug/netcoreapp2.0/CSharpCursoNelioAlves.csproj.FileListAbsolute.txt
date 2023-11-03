@@ -1,5 +1,0 @@
-C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\netcoreapp2.0\CSharpCursoNelioAlves.csproj.AssemblyReference.cache
-C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\netcoreapp2.0\CSharpCursoNelioAlves.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\netcoreapp2.0\CSharpCursoNelioAlves.AssemblyInfoInputs.cache
-C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\netcoreapp2.0\CSharpCursoNelioAlves.AssemblyInfo.cs
-C:\Users\vpinh\OneDrive\Área de Trabalho\CSharpCursoNelioAlves\CSharpCursoNelioAlves\obj\Debug\netcoreapp2.0\CSharpCursoNelioAlves.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lUtYe2pRhOPK+JrtXJyuQdvaC/RkBxpi9Iv+2TBaih0Xn9x280E+NplmIzsFJtVtcFrQ1MPAAf2hCYDBsVm8Jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\CSharpCursoNelioAlves\\ResumoCSharp\\CSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vpinh\\.nuget\\packages\\readline\\2.0.1\\readline.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
