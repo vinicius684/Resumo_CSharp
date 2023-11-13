@@ -5,8 +5,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp._1LogicaProgCSharp.SaidaDeDadosCSharp</StartupObject>
+    <StartupObject>CSharp._12Generics_Set_Dictionary._01Generics.Program</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="11Interfaces\01Interfaces\Program.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="06GitEGitHub\" />

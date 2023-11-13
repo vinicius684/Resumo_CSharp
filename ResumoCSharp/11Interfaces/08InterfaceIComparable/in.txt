@@ -1,0 +1,9 @@
+Maria Brown,4300.00
+Alex Green,3300.00
+Bob Jordan,2300.00
+Anna White,3500.00
+Alex Black,17000.00
+Esduardo Rose,1800.00
+Willian Red,4300.00
+Marta Blue,4350.00
+Alex Brown,4700.00
