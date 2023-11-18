@@ -66,6 +66,7 @@ namespace CSharp._5TopicosEspeciaisEmCSharp_Pt1.DateTimeKind_e_PadraoISO8601
             Console.WriteLine("d5 to Local: " + d5.ToLocalTime());
             Console.WriteLine("d5 to Utc: " + d5.ToUniversalTime());
             Console.WriteLine();
+
             Console.WriteLine(d4.ToString("yyyy-MM-ddTHH:mm:ssZ")); // cuidado!
             Console.WriteLine(d4.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ"));
         }

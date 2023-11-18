@@ -12,7 +12,7 @@ namespace CSharp._11Interfaces._08InterfaceIComparable
         static void Main(string[] args)
         {
             /*
-                Essa interface é um padrão utilizado pela linguagem para se compara um objeto com outro
+                Essa interface é um padrão utilizado pela linguagem para se comparar um objeto com outro
                 Compara - dizer se é maior, menor ou igual ao outro
 
                 tenho que implementa-la para utilizar por exemplo o list.Sort(); // Ordenação

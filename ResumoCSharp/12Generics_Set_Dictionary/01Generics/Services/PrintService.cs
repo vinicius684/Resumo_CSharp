@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharp._12Generics_Set_Dictionary._01Generics.Services
 {
-    internal class PrintService
+    internal class PrintService<T> //classe passa a ser parametrizada pelo tipo T
     {
-        private int[] _values = new int[10];
+        private T[] _values = new T[10];
         private int _count = 0;//para contar quantos inteiros já adicionei
 
-        public void AddValue(int value) {
+        public void AddValue(T value) {
             if (_count == 10) {
                 throw new InvalidOperationException("PrintService is full");
             }
@@ -19,7 +19,7 @@ namespace CSharp._12Generics_Set_Dictionary._01Generics.Services
             _count++;
         }
 
-        public int First() {
+        public T First() {
             if (_count == 0)
             {
                 throw new InvalidOperationException("PrintService is emptyfull");

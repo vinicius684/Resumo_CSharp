@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp._12Generics_Set_Dictionary._01Generics.Program</StartupObject>
+    <StartupObject>CSharp._13TopicosEspeciaisCSharp_Pt2._01ExtensionsMethods.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

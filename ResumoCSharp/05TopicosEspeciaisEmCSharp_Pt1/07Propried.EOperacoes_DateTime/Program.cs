@@ -37,7 +37,7 @@ namespace CSharp._5TopicosEspeciaisEmCSharp_Pt1._7Propried.EOperacoes_DateTime
             string s4 = d.ToShortTimeString();
 
             string s5 = d.ToString();
-            string s6 = d.ToString("yyyy-MM-dd HH:mm:ss");
+            string s6 = d.ToString("yyyy-MM-dd HH:mm:ss"); 
             string s7 = d.ToString("yyyy-MM-dd HH:mm:ss.fff");
 
             Console.WriteLine(s1);
