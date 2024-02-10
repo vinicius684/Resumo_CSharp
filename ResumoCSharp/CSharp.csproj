@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp._13TopicosEspeciaisCSharp_Pt2._01ExtensionsMethods.Program</StartupObject>
+    <StartupObject>CSharp._14ExpressoesLambda_Delegates_LINQ._09LINQComLambda.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
